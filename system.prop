@@ -107,12 +107,22 @@ renderthread.skia.reduceopstasksplitting=true
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+
 # Time-services
 persist.timed.enable=true
 
 # WFD settings
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# RIL Powersaving
+persist.radio.add_power_save=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=1000
+
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true

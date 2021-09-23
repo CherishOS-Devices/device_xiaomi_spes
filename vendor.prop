@@ -125,6 +125,9 @@ ro.crypto.volume.metadata.method=dm-default-key
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
 # Display calib
 debug.sdm.support_writeback=0
 ro.vendor.display.sensortype=2

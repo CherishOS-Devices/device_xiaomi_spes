@@ -437,6 +437,28 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.data.iwlan.enable=true \
+    persist.vendor.radio.add_power_save=1 \
+    persist.vendor.radio.atfwd.start=true \
+    persist.vendor.radio.data_con_rprt=1 \
+    persist.vendor.radio.force_on_dc=true \
+    persist.vendor.radio.manual_nw_rej_ct=1 \
+    persist.vendor.radio.mt_sms_ack=30 \
+    persist.vendor.radio.process_sups_ind=1 \
+    persist.vendor.radio.report_codec=1 \
+    persist.vendor.radio.snapshot_enabled=1 \
+    persist.vendor.radio.snapshot_timer=5 \
+    rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
+    ro.telephony.default_network=22,20 \
+    ro.vendor.se.type=HCE,UICC \
+    telephony.lteOnCdmaDevice=1
+
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.radio.process_sups_ind=1
+    
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \

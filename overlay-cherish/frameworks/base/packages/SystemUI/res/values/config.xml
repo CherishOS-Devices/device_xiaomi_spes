@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 The LineageOS Project
+     Copyright (C) 2016-2022 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +15,8 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Max visible notification icons -->
-    <integer name="config_maxVisibleNotificationIcons">3</integer>
-    <integer name="config_maxVisibleNotificationIconsOnLock">4</integer>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
 </resources>

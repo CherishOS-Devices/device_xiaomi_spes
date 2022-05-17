@@ -449,6 +449,7 @@ if [ ! -f /vendor/firmware_mnt/verinfo/ver_info.txt -o "$prev_version_info" != "
 fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
+pm disable com.google.android.gms/.chimera.GmsIntentOperationService
 
 #check build variant for printk logging
 #current default minimum boot-time-default
@@ -463,3 +464,5 @@ case "$buildvariant" in
         echo "4 4 1 4" > /proc/sys/kernel/printk
         ;;
 esac
+
+

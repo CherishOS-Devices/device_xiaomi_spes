@@ -261,9 +261,6 @@ TARGET_SCREEN_DENSITY := 440
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-05-05
 
-# Sensor multi HAL
-USE_SENSOR_MULTI_HAL := true
-
 # Treble flag
 BOARD_VNDK_VERSION := current
 

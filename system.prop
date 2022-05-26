@@ -1,3 +1,6 @@
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
+
 # Bluetooth
 persist.log.tag.a2dp_codec=S
 persist.log.tag.vendor.qti.bluetooth@1.0-ibs_handler=S

@@ -1,5 +1,7 @@
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
+# IORap I/O Prefetching
+persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
 # Bluetooth
 persist.log.tag.a2dp_codec=S

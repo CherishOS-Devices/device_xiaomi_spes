@@ -527,3 +527,7 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+#Remove Unstuff Packages
+PRODUCT_PACKAGES += \
+   RemovePackages

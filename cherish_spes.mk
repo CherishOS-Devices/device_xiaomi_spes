@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
 # Inherit some common CHERISH stuff.
-$(call inherit-product, vendor/cherish/config/common.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true

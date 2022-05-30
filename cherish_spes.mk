@@ -13,11 +13,15 @@ $(call inherit-product, device/xiaomi/spes/device.mk)
 
 # Inherit some common CHERISH stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+CHERISH_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=sthomsonpl
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080

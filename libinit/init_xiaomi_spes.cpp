@@ -16,7 +16,7 @@ static const variant_info_t spes_info = {
     .brand = "Redmi",
     .device = "spes",
     .marketname = "Redmi Note 11",
-    .model = "2201117TG",
+    .model = "Redmi Note 11 ",
     .build_fingerprint = "Redmi/spes_global/spes:11/RKQ1.211001.001/V13.0.9.0.RGCMIXM:user/release-keys",
 
     .nfc = false,
@@ -29,7 +29,7 @@ static const variant_info_t spesn_info = {
     .brand = "Redmi",
     .device = "spesn",
     .marketname = "Redmi Note 11",
-    .model = "2201117TY",
+    .model = "Redmi Note 11",
     .build_fingerprint = "Redmi/spesn_global/spesn:11/RKQ1.211001.001/V13.0.9.0.RGCMIXM:user/release-keys",
 
     .nfc = true,

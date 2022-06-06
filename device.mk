@@ -404,6 +404,14 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.enable_suspend=true    
+
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt

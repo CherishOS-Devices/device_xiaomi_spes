@@ -163,8 +163,7 @@ debug.sf.high_fps_late_sf_phase_offset_ns=-5000000
 
 debug.sf.hw=0
 persist.metadata_dynfps.disable=true
-debug.sf.hw=1
-persist.metadata_dynfps.disable=true
+
 persist.demo.hdmirotationlock=false
 
 persist.sys.sf.color_mode=7

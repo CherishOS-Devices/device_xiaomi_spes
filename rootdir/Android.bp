@@ -51,19 +51,10 @@ sh_binary {
 
     name: "init.qti.dcvs.sh",
     src: "bin/init.qti.dcvs.sh",
-
-    name: "init.display.refresh.sh",
-    src: "bin/init.display.refresh.sh",
-    vendor: true,
+   vendor: true,
 }
 
-prebuilt_etc {
-    name: "init.qcom.usb.rc",
-    src: "etc/init.qcom.usb.rc",
-    sub_dir: "init/hw",
 
-    vendor: true,
-}
 
 // Init configuration files
 prebuilt_etc {

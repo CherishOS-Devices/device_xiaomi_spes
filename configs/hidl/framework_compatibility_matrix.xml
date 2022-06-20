@@ -762,4 +762,34 @@
             <instance>default</instance>
         </interface>
     </hal>
+          <!-- PASR Manager -->
+    <hal format="hidl">
+       <name>vendor.qti.power.pasrmanager</name>
+       <transport>hwbinder</transport>
+       <version>1.0</version>
+       <interface>
+           <name>IPasrManager</name>
+           <instance>default</instance>
+       </interface>
+    </hal>
+     <!-- MwqemAdapter HAL service -->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.mwqemadapter</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IMwqemAdapter</name>
+            <instance>MwqemAdapter</instance>
+        </interface>
+    </hal>
+        <!-- eSEPowerManager -->
+    <hal format="hidl">
+        <name>vendor.qti.esepowermanager</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IEsePowerManager</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>

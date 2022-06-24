@@ -1433,6 +1433,12 @@ vendor/etc/thermal-india-video.conf|bb15b873112319704323f219b382bd18b1996b56
 vendor/etc/thermal-map-india.conf|fdee294162e90ba8c7b60c8aac3d3f3ac84f2fef
 vendor/etc/thermal-region-map.conf|8a60e0d66e519e0301c3192a5c1740e21f2170bf
 
+# Thermal (limits-hal) - from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
+vendor/bin/hw/vendor.qti.hardware.limits@1.0-service|0b8947b9f6ddc6953a324ea43e33bcc8f7edab26
+vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc|77c989d8d59b99716b900e96d94a4aa9bcab6aa6
+vendor/lib64/vendor.qti.hardware.limits@1.0.so|8fef74ce2bef2e064e0ccef4a302c995cdfca7c8
+-vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml|6109f13748cb74b7d042e2604a9883a1b071e810
+
 # Time services
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon

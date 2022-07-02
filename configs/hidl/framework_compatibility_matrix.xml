@@ -696,7 +696,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.mtdservice</name>
-        <version>1.0-2</version>
+        <version>1.0-3</version>
         <interface>
             <name>IMTService</name>
             <instance>default</instance>
@@ -789,6 +789,16 @@
         <version>1.1</version>
         <interface>
             <name>IEsePowerManager</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+        <!-- ILimits -->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.limits</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ILimits</name>
             <instance>default</instance>
         </interface>
     </hal>

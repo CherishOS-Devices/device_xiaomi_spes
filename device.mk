@@ -19,6 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/spes/spes-vendor.mk)
 
+#Include GCAM BSG
+ifeq ($(WITH_GMS), true)
+$(call inherit-product, vendor/GcamBSG/GcamBSG-vendor.mk)
+endif
+
 ifeq ($(wildcard hardware/xiaomi/Android.bp),)
 $(error Error: cannot found hardware/xiaomi repository, please clone it and try to build again!)
 endif
